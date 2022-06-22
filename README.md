@@ -23,7 +23,7 @@ Initialize the project
 
 `cdk init app --language typescript`
 
-Replace the script content with the lib\eks-blueprint-spot-graviton.ts
+Replace the script content with the eks-blueprint-spot-graviton.ts
 
 Deploy into AWS environment. This creates the EKS cluster with the Karpenter add-on.
 
