@@ -27,7 +27,7 @@ Install the eks-blueprints NPM package via the following
 
 `npm i @aws-quickstart/eks-blueprints`
 
-Replace the script content with the eks-blueprint-spot-graviton.ts
+Replace the contents of bin/<your-main-file>.ts with the eks-blueprint-spot-graviton.ts
 
 Deploy into AWS environment. This creates the EKS cluster with the Karpenter add-on.
 
