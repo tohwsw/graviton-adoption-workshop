@@ -39,4 +39,4 @@ Next deploy the nginx nodes using nginx-deployment-arm.yaml.
 
 Verify that the pods come up and running. What is the instance type that has been provisioned for the pods? You can find out by running the command
 
-`kubectl get nodes`
+`kubectl get nodes --show-labels`
