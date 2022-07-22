@@ -52,7 +52,7 @@ Karpenter is designed to provide the right compute resources to match your appli
 
 Karpenter shall be bootstrapped via EKS Blueprints. EKS Blueprints that makes it easier and faster for you to adopt Amazon Elastic Kubernetes Service (Amazon EKS). EKS Blueprints is a collection of Infrastructure as Code (IaC) modules that will help you configure and deploy consistent, batteries-included EKS clusters across accounts and regions. You can use EKS Blueprints to easily bootstrap an EKS cluster with Amazon EKS add-ons as well as a wide range of popular open-source add-ons, including Prometheus, Karpenter, Nginx, Traefik, AWS Load Balancer Controller, Fluent Bit, Keda, Argo CD, and more. EKS Blueprints also helps you implement relevant security controls needed to operate workloads from multiple teams in the same cluster.
 
-`mkdir eks-blueprint-graviton`
+`mkdir eks-blueprint-spot-graviton`
 
 Initialize the project
 
